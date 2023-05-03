@@ -4,6 +4,7 @@
 }
 body{
     color: #2D2D2D;
+    background-color: #FAFBFE;
 }
 main{
     margin: 66px 45px;
@@ -26,7 +27,7 @@ header {
     font-size: 24px;
     line-height: 66px;
     color: #FF8400;
-    margin-left: 45px;
+    padding-left: 45px;
     width: 200px;
 }
 
@@ -138,9 +139,16 @@ ul.services, .team{
     background-color: #E8F9FE;
 }
 .works{
-    display: flex;
-    justify-content: space-between;
     padding: 50px 0;
+}
+.works img:first-child{
+    padding-right: 30px;
+}
+.portfolio {
+    padding-left: 50px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .team{
     padding: 100px 0;
@@ -171,3 +179,65 @@ ul.services, .team{
     margin-right: auto;
     padding-bottom: 100px;
 }
+.text-contact{
+    width: 50%;
+}
+.text-contact h2{
+    margin: 0;
+    padding-bottom: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+  }
+  .description{
+    color: #5e5e5e;
+    font-size: 14px;
+    margin-bottom: 2em;
+    width: 400px;
+    padding-left: 50px;
+  }
+  .form-submit{
+    padding: 0.7em;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: #4093DC;
+    background-color: white;
+    color: #4093DC;
+    font-weight: 400;
+    width: 10em;
+  }
+  .form-submit:hover{
+    cursor: pointer;
+  }
+  .input{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 1em;
+    border-radius: 3px;
+    outline: none;
+    border-width: 1px;
+    padding: 1em;
+    width: 100%;
+  }
+.input:hover, .input:active, .input:focus{
+    border-color: #4093DC;
+    box-shadow: 0 0 0 3px hsla(208, 60%, 42%, .25);
+  }
+  #contact{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer{
+    background-color: #F4F8FD;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer span:last-child{
+    padding-right: 45px;
+  }
