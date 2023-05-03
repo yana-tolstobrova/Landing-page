@@ -2,6 +2,12 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.396px;
 }
+body{
+    color: #2D2D2D;
+}
+main{
+    margin: 66px 45px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,6 +19,7 @@ header {
     top:0;
     background-color: white;
     width: 100%;
+    height: 80px;
 }
 .logo {
     font-weight: 600;
@@ -40,8 +47,7 @@ a {
     color: rgba(71, 71, 71, 1);
     font-weight: 400;
     font-size: 14px;
-    line-height: 9px;
-    
+    line-height: 9px; 
 }
 a:hover {
     font-weight: 600;
@@ -50,12 +56,13 @@ a:hover {
 }
 #home section {
     background: linear-gradient(259.08deg, #D5ECFF 0.69%, #E6F2FC 100%);
-    margin: 66px 45px;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 0 50px;
 }
 .heading {
-    margin-left: 50px;
     width: 520px;
 }
 h1 {
@@ -63,15 +70,13 @@ h1 {
     font-weight: 600;
     font-size: 54px;
     line-height: 66px;
-    color: #2D2D2D;
-    margin-top: 0;
+    margin-top: 20px;
 }
 .sup {
     font-weight: 600;
     font-size: 14px;
     line-height: 9px;
     color: #FF8400;
-    margin-top: 0;
 }
 p {
     font-weight: 300;
@@ -79,29 +84,90 @@ p {
     line-height: 24px;
     color: rgba(0, 0, 0, 7);
 }
-.tag {
+ul.tag {
     font-weight: 600;
     font-size: 14px;
     line-height: 9px;
     color: rgba(71, 71, 71, 0.3);
     list-style: none;
-    margin-top: 100px;
+    margin-top: 200px;
+    padding-left: 0;
 }
 .tag li {
     display: inline;
-    padding: 0 10px;
+    padding-right: 15px;
 }
-.figure1 {
-   position: relative;
-   z-index: -1;
-    top: -330px;
-    right: -700px;
-
+.serv{
+    padding: 100px 0;
 }
-.woman {
-    position: relative;
-    z-index: 1;
-    top: -530px;
-    right: -965px;
-    
+h2{
+    font-size: 34px;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.hide{
+    display: none;
+}
+ul.services, .team{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+}
+.services li{
+    width: 25%;
+}
+.break{
+    width: 60%;
+}
+.bg1, .bg2, .bg3{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg1{
+    background-color: #E3FCE6;
+}
+.bg2{
+    background-color: #FFF6E5;
+}
+.bg3{
+    background-color: #E8F9FE;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.team{
+    padding: 100px 0;
+}
+.team li{
+    text-align: center;
+    width: 25%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links div {
+    border: 1px solid #ACD7FB;
+    border-radius: 16px;
+    width:32px;
+    height: 32px;
+}
+.colab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
 }
